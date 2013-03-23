@@ -2,8 +2,8 @@
 
 //=================================
 // include guard
-#ifndef __HUMAN_H_INCLUDED__
-#define __HUMAN_H_INCLUDED__
+#ifndef __SOLDIER_H_INCLUDED__
+#define __SOLDIER_H_INCLUDED__
 //=================================
 // forward declared dependencies
 
@@ -21,5 +21,5 @@ using namespace std;
 // the actual class
 
 
-#endif // __CAMERA_H_INCLUDED__ 
+#endif // __SOLDIER_H_INCLUDED__ 
 
