@@ -104,12 +104,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\BasicEnemy.cpp" />
+    <ClCompile Include="..\src\BasicGameObject.cpp" />
+    <ClCompile Include="..\src\BasicSoldier.cpp" />
     <ClCompile Include="..\src\Enemy.cpp" />
     <ClCompile Include="..\src\GameObject.cpp" />
     <ClCompile Include="..\src\Soldier.cpp" />
     <ClCompile Include="..\src\TDGameApp.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\include\BasicEnemy.h" />
+    <ClInclude Include="..\include\BasicGameObject.h" />
+    <ClInclude Include="..\include\BasicSoldier.h" />
     <ClInclude Include="..\include\Enemy.h" />
     <ClInclude Include="..\include\GameObject.h" />
     <ClInclude Include="..\include\Resources.h" />
@@ -117,6 +123,9 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Resources.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
