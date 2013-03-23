@@ -19,6 +19,9 @@ using namespace std;
 
 //=================================
 // the actual class
+Class Soldier
+{
+}
 
 
 #endif // __SOLDIER_H_INCLUDED__ 
